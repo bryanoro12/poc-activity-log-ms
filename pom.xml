@@ -64,6 +64,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>poc-activity-log-ms</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
