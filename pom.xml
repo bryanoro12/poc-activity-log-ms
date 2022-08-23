@@ -51,6 +51,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- Spring fox -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-boot-starter</artifactId>
+			<version>3.0.0</version>
+		</dependency>
 		<!-- Apache Kafka -->
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
@@ -64,6 +70,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>poc-activity-log-ms</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
